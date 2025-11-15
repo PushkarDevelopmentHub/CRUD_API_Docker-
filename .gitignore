@@ -1,0 +1,14 @@
+# here all are all the files and folders to be ignored by git
+__pycache__/
+*.pyc
+env/
+node_modules/
+.DS_Store
+.vscode/
+*.log
+.idea/
+.env
+*.sqlite3
+coverage
+package-lock.json
+package.json
