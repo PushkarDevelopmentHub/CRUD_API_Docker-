@@ -18,33 +18,6 @@ This project follows a modular and scalable architecture and includes validation
 
 ---
 
-## 📁 Project Structure
-
-CRUD_API/
-│── node_modules/
-│── src/
-│ ├── config/
-│ │ └── db.js
-│ ├── controllers/
-│ │ └── userController.js
-│ ├── data/
-│ │ ├── createUserTable.js
-│ │ └── data.sql
-│ ├── middlewares/
-│ │ ├── errorHandler.js
-│ │ └── inputValidator.js
-│ ├── models/
-│ │ └── userModel.js
-│ ├── routes/
-│ │ ├── index.js
-│ │ └── userRoutes.js
-│── .env
-│── package.json
-│── package-lock.json
-│── Dockerfile
-│── docker-compose.yml
-└── README.md
-
 🔧 Environment Variables
 
 Create a .env file in your project root:
